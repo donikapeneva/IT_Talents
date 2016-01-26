@@ -1,4 +1,4 @@
-package vinetki;
+package vignetteTask;
 
 public class Driver {
 
@@ -10,7 +10,12 @@ public class Driver {
 	
 	public Driver(String name, double money, GasStation stationEntered){
 		//TODO
-		this.freePosition = 0;
+		if(name != null && money > 0 && stationEntered != null){
+			this.name = name;
+			this.money = money;
+			this.stationEntered = stationEntered;
+			this.freePosition = 0;
+		}
 	}
 	
 	public int getNumberOfVehicles(){

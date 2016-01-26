@@ -1,4 +1,4 @@
-package vinetki;
+package vignetteTask;
 
 public class GasStation {
 

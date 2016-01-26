@@ -1,4 +1,4 @@
-package vinetki;
+package vignetteTask;
 
 public class Demo {
 
@@ -33,7 +33,6 @@ public class Demo {
 		//create 200 vehicles
 		Vehicle[] vehicalsForDemo = new Vehicle[200];
 		for(int i = 0; i < vehicalsForDemo.length; i++){
-			Vehicle vehicle;
 			int random = (int )(Math.random() * 3 + 1);
 			switch(random){
 			case 1: vehicalsForDemo[i] = new Car();

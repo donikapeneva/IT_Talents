@@ -1,4 +1,4 @@
-package vinetki;
+package vignetteTask;
 
 import java.time.LocalDate;
 import java.time.Period;

@@ -1,4 +1,4 @@
-package vinetki;
+package vignetteTask;
 
 public abstract class Vehicle {
 
@@ -7,6 +7,9 @@ public abstract class Vehicle {
 	private int yearOfProduction;
 	
 	//constructor, random for creating vehicles
+	Vehicle(){
+		this.randomCreating();
+	}
 	
 	public boolean checkVignette(int day, int month, int year){
 		//TODO
@@ -20,5 +23,21 @@ public abstract class Vehicle {
 	public void putVignette(Vignette vignette) {
 		this.vignette = vignette;
 	}
+	
+	protected abstract void randomCreating();
+	
+	protected void setModel(String model){
+		if(model != null){
+			this.model = model;
+		}
+	}
+	
+	protected void setYearOfProduction(int year){
+		if(year > 0){
+			this.yearOfProduction = year;
+		}
+	}
+		
+
 	
 }
