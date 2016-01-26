@@ -18,6 +18,8 @@ public abstract class Vehicle {
 	
 	public void showInfoForVehicle(){
 		//TODO
+		System.out.println(this.model + " " + this.yearOfProduction + " " 
+		+ (this.vignette == null ? "hasn't got a vignette" : this.vignette.getPrice()) );
 	}
 	
 	public void putVignette(Vignette vignette) {

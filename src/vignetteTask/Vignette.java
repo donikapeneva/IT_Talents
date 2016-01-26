@@ -46,4 +46,10 @@ public abstract class Vignette {
 		return this.price;
 	}
 	
+	@Override
+	public String toString() {
+		
+		return "" + this.price;
+	}
+	
 }
