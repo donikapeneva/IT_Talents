@@ -49,7 +49,7 @@ public abstract class Vignette {
 	@Override
 	public String toString() {
 		
-		return "" + this.price;
+		return " " + this.price;
 	}
 	
 }

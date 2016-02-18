@@ -5,7 +5,7 @@ public class Demo {
 	public static void main(String[] args) {
 		//create Gas Station
 		GasStation station = new GasStation();
-		station.showVignettesForSale();
+		station.showAvailableVignettes();
 		
 		//Create 20 drivers
 		Driver[] drivers = new Driver[20];

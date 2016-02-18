@@ -95,7 +95,7 @@ public class GasStation {
 
 	public void sortVignettes() {
 		// TODO
-		quickSort(0, this.vignettes.length);
+		quickSort(0, this.vignettes.length -1 );
 		
 	}
 			
